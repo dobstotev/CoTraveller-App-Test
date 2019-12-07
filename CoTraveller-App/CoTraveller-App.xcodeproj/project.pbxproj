@@ -15,6 +15,9 @@
 		13E0B1B6239BD71000B1C3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E0B1B4239BD71000B1C3C7 /* LaunchScreen.storyboard */; };
 		13E0B1C1239BD9AB00B1C3C7 /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0B1C0239BD9AB00B1C3C7 /* Trips.swift */; };
 		13E0B1C3239BDDF800B1C3C7 /* CoTravellerCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0B1C2239BDDF800B1C3C7 /* CoTravellerCustomView.swift */; };
+		13E0B1CA239C42D000B1C3C7 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13E0B1C8239C42D000B1C3C7 /* Quicksand-Medium.ttf */; };
+		13E0B1CB239C42D000B1C3C7 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13E0B1C9239C42D000B1C3C7 /* Quicksand-Bold.ttf */; };
+		13E0B1CD239C42F100B1C3C7 /* Quattrocento-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13E0B1CC239C42F100B1C3C7 /* Quattrocento-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		13E0B1B7239BD71000B1C3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E0B1C0239BD9AB00B1C3C7 /* Trips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
 		13E0B1C2239BDDF800B1C3C7 /* CoTravellerCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTravellerCustomView.swift; sourceTree = "<group>"; };
+		13E0B1C8239C42D000B1C3C7 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		13E0B1C9239C42D000B1C3C7 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		13E0B1CC239C42F100B1C3C7 /* Quattrocento-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quattrocento-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 				13E0B1B2239BD71000B1C3C7 /* Assets.xcassets */,
 				13E0B1B4239BD71000B1C3C7 /* LaunchScreen.storyboard */,
 				13E0B1B7239BD71000B1C3C7 /* Info.plist */,
+				13E0B1C7239C429E00B1C3C7 /* Resources */,
 			);
 			path = "CoTraveller-App";
 			sourceTree = "<group>";
@@ -95,6 +102,16 @@
 				13E0B1C0239BD9AB00B1C3C7 /* Trips.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		13E0B1C7239C429E00B1C3C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13E0B1CC239C42F100B1C3C7 /* Quattrocento-Bold.ttf */,
+				13E0B1C9239C42D000B1C3C7 /* Quicksand-Bold.ttf */,
+				13E0B1C8239C42D000B1C3C7 /* Quicksand-Medium.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E0B1B6239BD71000B1C3C7 /* LaunchScreen.storyboard in Resources */,
+				13E0B1CA239C42D000B1C3C7 /* Quicksand-Medium.ttf in Resources */,
+				13E0B1CD239C42F100B1C3C7 /* Quattrocento-Bold.ttf in Resources */,
 				13E0B1B3239BD71000B1C3C7 /* Assets.xcassets in Resources */,
 				13E0B1B1239BD70F00B1C3C7 /* Main.storyboard in Resources */,
+				13E0B1CB239C42D000B1C3C7 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DDOBS.CoTraveller-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -344,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DDOBS.CoTraveller-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

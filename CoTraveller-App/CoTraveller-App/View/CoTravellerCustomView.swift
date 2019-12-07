@@ -6,11 +6,8 @@
 //  Copyright © 2019 d.DOBS Creative Ltd. All rights reserved.
 //
 
+import Foundation
 import UIKit
-
-class drawBox {
-    
-}
 
 class infoBoxNeonGreen: UIView {
     override func awakeFromNib() {
