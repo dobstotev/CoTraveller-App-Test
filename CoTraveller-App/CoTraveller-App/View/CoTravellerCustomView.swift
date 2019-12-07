@@ -32,10 +32,14 @@ class whiteCTA: UIButton {
     
     func setUpButton() {
         setShadow()
-        
-        
+        setTitleColor(UIColor(red: 255/255, green: 87/255, blue: 118/255, alpha: 1.0), for: .normal)
+        backgroundColor = UIColor.white
+        titleLabel?.font = UIFont(name:"Quicksand-Bold", size: 18)
+        layer.cornerRadius = 24
     }
     
+    
+    //Creatind the button shadow
     private func setShadow() {
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOffset = CGSize(width:0.0, height:6.0)
@@ -45,9 +49,6 @@ class whiteCTA: UIButton {
         layer.masksToBounds = false
     }
     
-    func shakeButtonAnimation() {
-        let shake = CAB
-    }
     
     
 }
