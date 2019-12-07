@@ -6,7 +6,6 @@
 //  Copyright © 2019 d.DOBS Creative Ltd. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class infoBoxNeonGreen: UIView {
@@ -42,8 +41,8 @@ class whiteCTA: UIButton {
     //Creatind the button shadow
     private func setShadow() {
         layer.shadowColor = UIColor.black.cgColor
-        layer.shadowOffset = CGSize(width:0.0, height:6.0)
-        layer.shadowRadius = 23.5
+        layer.shadowOffset = CGSize(width:0.0, height:3.0)
+        layer.shadowRadius = 4
         layer.shadowOpacity = 0.15
         clipsToBounds = true
         layer.masksToBounds = false
