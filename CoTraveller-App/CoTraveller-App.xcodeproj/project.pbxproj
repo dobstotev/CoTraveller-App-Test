@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133BBD27239D2E66008F6818 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133BBD26239D2E66008F6818 /* Buttons.swift */; };
 		13E0B1AA239BD70F00B1C3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0B1A9239BD70F00B1C3C7 /* AppDelegate.swift */; };
 		13E0B1AC239BD70F00B1C3C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0B1AB239BD70F00B1C3C7 /* SceneDelegate.swift */; };
 		13E0B1AE239BD70F00B1C3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E0B1AD239BD70F00B1C3C7 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		133BBD26239D2E66008F6818 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		13E0B1A6239BD70F00B1C3C7 /* CoTraveller-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoTraveller-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E0B1A9239BD70F00B1C3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13E0B1AB239BD70F00B1C3C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		13E0B1BE239BD83500B1C3C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				133BBD26239D2E66008F6818 /* Buttons.swift */,
 				13E0B1C2239BDDF800B1C3C7 /* CustomView.swift */,
 			);
 			path = View;
@@ -191,6 +194,7 @@
 				13E0B1C1239BD9AB00B1C3C7 /* Trips.swift in Sources */,
 				13E0B1AE239BD70F00B1C3C7 /* ViewController.swift in Sources */,
 				13E0B1AA239BD70F00B1C3C7 /* AppDelegate.swift in Sources */,
+				133BBD27239D2E66008F6818 /* Buttons.swift in Sources */,
 				13E0B1C3239BDDF800B1C3C7 /* CustomView.swift in Sources */,
 				13E0B1AC239BD70F00B1C3C7 /* SceneDelegate.swift in Sources */,
 			);
