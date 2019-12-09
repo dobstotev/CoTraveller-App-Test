@@ -10,7 +10,7 @@ import UIKit
 
 class infoBoxNeonGreen: UIView {
     override func awakeFromNib() {
-        layer.cornerRadius = 10
+        layer.cornerRadius = 15
         backgroundColor = #colorLiteral(red: 0.2235294118, green: 0.9333333333, blue: 0.5960784314, alpha: 1)
     }
 }
